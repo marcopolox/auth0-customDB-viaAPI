@@ -41,7 +41,7 @@ API Gateway and lambda
 - DELETE /users
 - GET /users/{email}
 - POST /users/login
-2. Create a lambda and use the code from the lambda.js file in this repo
+2. Create a lambda and use the code from the lambda.js file in this repo (you might need to do a local project and upload a zip file due to bcrypt not compiling on lambda exposed bcrypt library)
 3. Create and attach an integration to the lambda to each endpoint on API Gateway
 4. Create and attach an authorizer to each endpoint on API Gateway (use appropiate scopes for the corresponding endpoint, e.g. GET /users would require user:get scope)
 5. Don't forget to deploy your changes!
