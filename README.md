@@ -26,7 +26,7 @@ Take a look at the custom database Action script templates to get an idea of wha
 - key: CLIENT_ID, value: [clientid from the application in STEP 1]
 - key: CLIENT_SECRET, value: [client_secret from the application in STEP 1]
 - key: AUTH0_DOMAIN, value: [your Auth0 domain name without https...you can find it in the application settings tab]
-- key: MANAGEMENT_API_AUDIENCE, value: [your Auth0 Management API audience value...you can find it under Applications > API]
+- key: MANAGEMENT_API_AUDIENCE, value: [your Auth0 Management API audience value...you can find it under Applications > APIs]
 - key: MANAGEMENT_TOKEN_URL, value: [https://your Auth0 tenant name/oauth/token]
 - key: CONNECTION_NAME, value: [the name of your database connection from STEP 4]
 - key: SELF_API_AUDIENCE, value: [audience from STEP 2]
