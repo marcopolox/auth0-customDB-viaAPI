@@ -88,7 +88,7 @@ async function login(email, password, callback) {
         }
       };
 	    
-      console.log("getting token for self app");
+      //console.log("getting token for self app");
       const selfLoginBody = await axios(localDBScriptsLoginOpts);
       //console.log(selfLoginBody);
       const connections = await management.connections.getAll();
