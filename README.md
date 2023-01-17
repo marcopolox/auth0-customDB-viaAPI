@@ -30,6 +30,7 @@ Take a look at the custom database Action script templates to get an idea of wha
 - key: MANAGEMENT_TOKEN_URL, value: [https://your Auth0 tenant name/oauth/token]
 - key: CONNECTION_NAME, value: [the name of your database connection from STEP 4]
 - key: SELF_API_AUDIENCE, value: [audience from STEP 2]
+- key: SELF_TOKEN_URL, value: [https://your Auth0 tenant name/oauth/token]
 - key: API_ENDPOINT, value: [the URL of the API endpoint from the API Gateway]
 
 ## Pre-reqs in AWS (or your choice of provider)
